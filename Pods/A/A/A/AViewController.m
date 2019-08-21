@@ -7,8 +7,8 @@
 //
 
 #import "AViewController.h"
-#import "BViewController.h"
 #import <HandyFrame/UIView+LayoutMethods.h>
+#import <B_Category/CTMediator+B.h>
 
 @interface AViewController ()
 
@@ -37,7 +37,7 @@
 #pragma mark - event response
 - (void)didTappedPushBViewControllerButton:(UIButton *)button
 {
-    BViewController *viewController = [[BViewController alloc] initWithContentText:@"hello, world!"];
+    UIViewController *viewController = [[CTMediator sharedInstance] B_viewControllerWithContentText:@"hello, world!"];
     [self.navigationController pushViewController:viewController animated:YES];
 }
 

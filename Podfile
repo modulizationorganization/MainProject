@@ -10,8 +10,5 @@ target 'MainProject' do
  
   # Private Pods
   pod 'HandyFrame'
-  pod 'A'
-  pod 'CTMediator'
-  pod "A_Category", :path => "../A_Category"
 
 end

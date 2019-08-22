@@ -1,8 +1,8 @@
 PODS:
-  - A (1):
+  - A (1.0):
     - B_Category
     - HandyFrame
-  - A_Category (1):
+  - A_Category (1.0):
     - CTMediator
   - B_Category (1.1):
     - CTMediator
@@ -27,8 +27,8 @@ EXTERNAL SOURCES:
     :path: "../A_Category"
 
 SPEC CHECKSUMS:
-  A: b4755eb08bfa96ba35ea6d61db8ca3039c3b7cd3
-  A_Category: 0bdfd5ff75f9905b1c2d3c73cad8c7502352bbbc
+  A: 423a7fb03ca523d18576f4b0a24fd9786063fabb
+  A_Category: 9698b4cc1aa9c7dd34874a17643ce3db6261eea7
   B_Category: d643bbbb97fcb1271c9f298a762a385d1c3e7bf9
   CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
   HandyFrame: 437df83ba7563c56cd55b9bd0128561995463110
